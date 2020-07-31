@@ -1,6 +1,6 @@
 # game-of-life
 Conway's game of life written in html, css and javascript.
-<br>
+
 **Directions**
 * Click the Randomize button to randomly activate cells and/or click a cell activate or deactivate it.
 * Click the Start button to begin the game once cells have been activated.
