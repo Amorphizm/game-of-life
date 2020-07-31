@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Game of Life</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Conway's Game of Life</h1>
+    </div>
+
+    <div class="menu-buttons">
+      <button id="random">Randomize</button>
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="clear">Clear</button>
+    </div>
+
+    <script>
+      let grid = document.createElement('div');
+      grid.className = 'grid-container';
+      document.body.appendChild(grid);
+      for (i = 0; i < 400; i++) {
+        let div = document.createElement('div');
+        div.className = 'grid-item';
+        grid.appendChild(div);
+      }
+    </script>
+
+    <div class="board-info">
+      <div class="gen_div">
+        <label for="generation">Generation:</label>
+        <span><input name="generation" id="generation" placeholder="0" disabled/></span>
+      </div>
+      <div class="pop_div">
+        <label for="population">Population:</label>
+        <span><input name="population" id="population" placeholder="0" disabled/></span>
+      </div>
+    </div>
+
+  </body>
+  <script src="index.js"></script>
+</html>
