@@ -3,6 +3,7 @@ Conway's game of life written in html, css and javascript.
 
 **Directions**
 * Click the Randomize button to randomly activate cells and/or click a cell activate or deactivate it.
+  * Light blue => dead cell | Dark blue => live cell
 * Click the Start button to begin the game once cells have been activated.
 * Click the Stop button to pause the game so you can add more cells or view the current generation's cells.
 * Click the Clear button to clear the board and reset the game.
